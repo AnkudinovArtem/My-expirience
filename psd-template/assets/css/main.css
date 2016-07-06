@@ -1,0 +1,462 @@
+body {
+    margin: 0 auto;
+}
+
+
+.logo {
+    margin-left: 340px;
+    margin-top: 30px;
+}
+.sultan {
+    position: relative;
+    top:5px;
+}
+.header {
+    margin-top: 30px;
+    width:100%;
+    height: 90px;
+    min-height: 90px;
+    background-image: url('../images/Shape-2-copy-4.png');
+    background-repeat: repeat;
+    border-bottom: 1px solid darkgray;
+    border-collapse: collapse;
+}
+.buttons {
+     display: inline-block;
+ }
+.Home {
+    vertical-align: top;
+    display: inherit;
+    text-align: center;
+    border:1px solid darkgray;
+    margin-left: 340px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+    width: 90px;
+    height: 84px;
+    padding-top: 5px;
+}
+
+.hometext {
+    position: relative;
+    top:-5px;
+}
+
+.Ideas {
+    display: inherit;
+    position: relative;
+    text-align: center;
+    border:1px solid darkgray;
+    margin-left: -5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+    width: 140px;
+    height: 86px;
+    line-height: 4px;
+    padding-top: 3px;
+}
+
+
+.lamptext1 {
+    position: relative;
+    font-size: 13px;
+}
+
+.tutorials {
+    vertical-align: top;
+    display: inherit;
+    position: relative;
+    text-align: center;
+    border:1px solid darkgray;
+    margin-left: -5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+    width: 150px;
+    height: 86px;
+    line-height: 4px;
+    padding-top: 3px;
+}
+
+.brushicon{
+    padding-bottom: 4px;
+}
+.lamptext1 {
+    position: relative;
+    font-size: 13px;
+}
+
+.blogs {
+    vertical-align: top;
+    display: inherit;
+    position: relative;
+    text-align: center;
+    border:1px solid darkgray;
+    margin-left: -5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+    width: 160px;
+    height: 86px;
+    line-height: 4px;
+    padding-top: 3px;
+}
+
+.searchform {
+    display: inline-block;
+    margin-left: 300px;
+    vertical-align: top;
+    margin-top: 30px;
+
+}
+
+#submitbutton {
+    padding: 5px;
+    padding-bottom: 7px;
+    padding-right: 12px;
+    padding-left: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    margin-left: -5px;
+}
+
+#searchform {
+    border: 1px solid darkgrey;
+    height:35px;
+    background-color: lightgray;
+    width: 250px;
+}
+#wrapper {
+
+}
+.maincoltable{
+    display: inline-block;
+float: left;
+    width: 645px;
+    margin-left: 340px;
+
+}
+.maincol {
+    display: inline-block;
+    margin-top: 20px;
+    min-height: 340px;
+    background-color: lavender;
+    background: linear-gradient(to top left, lightgrey, white);
+    border: 1px solid gray;
+    width: 645px;
+    background-repeat: repeat-y;
+
+
+}
+
+.advertsq{
+    float: left;
+    margin-left: 30px;
+}
+.sq1 , .sq2, .sq3, .sq4 {
+    position: relative;
+    background-color: black;
+    height: 180px;
+    width: 180px;
+    margin:5px;
+    margin-top: 20px;
+    background: linear-gradient(to top left, lightgrey, white);
+    border: 1px solid gray;
+
+}
+
+.rectangle {
+    text-align: center;
+    width: 375px;
+    margin:5px;
+    margin-top: 20px;
+
+
+}
+
+.addsquare {
+    float: left;
+    text-align: center;
+    min-height: 370px;
+    width: 375px;
+    margin:5px;
+    margin-top: 20px;
+    border: 1px solid gray;
+    background-image: url("../images/Shape-18.png");
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+.addsquareh1 {
+    line-height: 30%;
+    font-size: 5em;
+    padding-bottom: 0px;
+}
+
+.addsquareh3 {
+    font-size: 3em;
+    font-weight: 200;
+    letter-spacing: 15px;
+}
+
+.imgmaincol{
+    padding: 12px;
+}
+
+.sqimg {
+    position: relative;
+    padding:15px;
+    width: 85%;
+    height: 85%;
+}
+.ad1{
+    position: absolute;
+    text-align: center;
+    color: white;
+    top:30%;
+    left: 25%;
+
+}
+.ad2{
+    position: absolute;
+    text-align: center;
+    left: 25%;
+    color: white;
+    top:30%;
+
+
+}
+
+.postbox {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid gray;
+    width: 640px;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 5px;
+}
+
+.postbox h3 {
+    font-size: 2em;
+}
+
+.postboxlogo {
+    display: inline-block;
+    float: left;
+    max-height:250px;
+    margin-right: 10px;
+}
+
+.postboxlogoimg {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border: 1px solid grey;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+.postbox h1 {
+    display: inline-block;
+    position:relative;
+    top:-180px;
+    left:40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5em;
+}
+.postbox span {
+    color:white;
+}
+.postboxpluspostbutton {
+    display: table;
+    margin-right: 0px;
+
+}
+
+#spanpostbox2 {
+    color:cyan;
+}
+
+.postboxtext {
+    display: inline-block;
+    float: right;
+    max-width: 410px;
+}
+
+
+.readmore {
+
+    background-color: lightgrey;
+    border: none;
+    color: white;
+    padding: 10px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    float: right;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.pagebutton {
+
+    background: linear-gradient(to top left, lightgrey, white);
+    border: 1px solid gray;
+    color:black;
+    padding: 6px 10px 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    float: right;
+    font-size: 10px;
+    margin-bottom: 10px;
+    margin-right: 7px;
+}
+
+.postbutton {
+    float: right;
+    display: table;
+}
+
+.socialbuttons {
+    display: inline-block;
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.pages {
+    display: inline-block;
+    float: left;
+}
+
+.posts {
+
+    display: inline-block;
+    margin:10px;
+    margin-left: 0px;
+    border:10px solid lightgray;
+}
+
+.postbutton {
+    color:black;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.todaypost {
+    display: inline-block;
+    margin: 0 auto;
+
+}
+.postbutton1 {
+    background: linear-gradient(to top left, lightgrey, white);
+    color:black;
+    text-decoration: none;
+    font-size: 18px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    margin-right: -4px;
+    border: 1px solid gray;
+}
+
+.postbutton1:visited {
+    background-color: black;
+}
+.todayposttr, .archivepoststr, .olderpoststr{
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    width: 350px;
+    max-height: 450px;
+    overflow: auto;
+    margin-top: 10px;
+}
+
+
+
+
+hr {
+    width: 80%;
+}
+
+
+.postbuttonrow {
+    border: 1px solid red;
+}
+
+.oldpostlogo {
+    display: inline-block;
+    float: left;
+    padding-bottom: 14px;
+}
+
+.postedin {
+    font-size: 13px;
+}
+
+.footer {
+    font-family: 'Roboto', sans-serif;
+    clear: both;
+    background: linear-gradient(176deg, rgba(240,240,240,1) 0%, rgba(97,97,97,1) 100%);
+}
+
+.footer th {
+    font-size: 1.8em;
+    padding-top: 25px;
+}
+
+.left-col {
+    display: inline-block;
+    width:20%;
+    vertical-align: top;
+
+}
+
+.center-col {
+    display: inline-block;
+    width:35%;
+    margin-left: 125px;
+    vertical-align: top;
+
+}
+
+.right-col {
+    display: inline-block;
+    width:29%;
+    margin-left: 25px;
+    vertical-align: top;
+
+}
+
+.popularpostsimg {
+    vertical-align: top;
+    float:left;
+}
+.popularposttext {
+    padding-left:75px;
+    font-size: 18px;
+}
+.popularposttextauthor {
+    font-size: 13px;
+    padding-left:75px;
+}
+
+.footer hr {
+    background-color: black;
+    border:0;
+    height: 1px;
+    width: 80%;
+}
+
+.whitetext {
+    color: white;
+}
+
+.footercols {
+    border: 1px solid cyan;
+    margin-top: 55px;
+    margin-left: 340px;
+    width: 1060px;
+
+}

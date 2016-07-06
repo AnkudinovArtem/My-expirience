@@ -1,0 +1,225 @@
+body {
+    font-family: Arial;
+    position: relative;
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+    background-color: lavender;
+
+
+}
+
+.header {
+    clear:both;
+    position: relative;
+    height: 60px;
+    min-width: 1110px;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+#clockbox {
+    position: relative;
+    width: 10%;
+    float: right;
+    color: lightblue;
+    top:-40px;
+    font-family: Arial;
+}
+
+.logo {
+    position: relative;
+    width:5%;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    right: 30%;
+}
+
+.headertext{
+    position: inherit;
+    margin: 0px;
+    top:-80%;
+    font-family: Arial;
+    background-color: aliceblue;
+    width:30%;
+    left:40%;
+    border-radius: 10px;
+}
+
+.buttons {
+    display: inline-block;
+    position: relative;
+    background-color: black;
+    width:100%;
+    float: left;
+
+}
+.button1, .button2, .button3, .button4, .button5, .button6{
+    position: relative;
+    display: inline-block;
+    margin-left:  30px;
+    padding:10px 20px 4px 20px;
+    border-left:1px solid lightblue;
+    border-right:1px solid lightblue;
+    border-collapse: collapse;
+    color: white;
+}
+
+}
+.col-1 {
+    float:left;
+    text-align: center;
+    border-collapse: collapse;
+    flex-shrink:0;
+    background-color:#F0F0F0;
+    width: 280px;
+    border-radius: 10px 0px 0px 10px;
+
+
+}
+
+.col-1-2{
+    min-width: 175px;
+}
+
+.menutext {
+    border-radius: 10px 0px 0px 0px;
+    font-family: Arial;
+    background-color: orange;
+    padding-top:0px;
+    margin-top: 0px;
+}
+
+.ref {
+    text-align: center;
+    margin: 10px;
+    border-radius: 4px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.refref{
+    text-decoration: none;
+    color: black;
+}
+.refref:hover {
+    text-decoration: underline;
+}
+.menutable {
+    position: relative;
+    text-align: center;
+}
+.col-2 {
+
+    float:left;
+    border-top: none;
+    border-bottom: none;
+    text-align: center;
+    border-collapse: collapse;
+    flex-grow:1;
+    background-color: white;
+    border-radius: 0px 10px 10px 10px;
+
+}
+
+.text {
+    padding-left:20px;
+    padding-right:20px;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+.marquee1 {
+    direction: left;
+    background-color: orange;
+    border-radius: 0px 10px 0px 0px;
+}
+
+.multimedia {
+
+    float:left;
+    border-top: none;
+    border-bottom: none;
+    text-align: center;
+    border-collapse: collapse;
+    border-radius: 10px 10px 10px 10px;
+    margin-top:20px;
+    width: 100%;
+    min-width: 1130px;
+}
+
+.photooftheday {
+    float: left;
+    background-color: white;
+    margin-right: 25px;
+    width: 48%;
+    border-radius: 10px;
+
+
+}
+
+.videooftheday {
+    float: right;
+    background-color: white;
+    width:48%;
+    border-radius: 10px;
+
+}
+
+.footer {
+    margin-top:20px;
+    border: 1px solid black;
+    text-align: center;
+    clear:both;
+    background-color:#282828;
+    border-collapse: collapse;
+    min-height: 150px;
+    width:100%;
+    min-width: 1110px;
+}
+.footer p{
+    color: white;
+}
+
+
+hr {
+    width: 90%;
+    border-color: black;
+}
+
+#page {
+    display: flex;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+#megapage {
+    display: table;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+A.headerbutton{
+    text-decoration: none;
+    color: lightblue;
+}
+
+A.headerbutton:hover {
+    text-decoration: underline;
+}
+
+.galleria {
+    margin: 20px;
+    width:500px;
+    height: 400px;
+    background: #000;
+}
+
+.youtube{
+    margin: 20px;
+    margin-top: 0px;
+    width:500px;
+    height: 400px;
+}

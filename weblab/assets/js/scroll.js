@@ -1,0 +1,15 @@
+$(document).ready(function() {
+    $('a[href^="#"]').click(function(){
+        var el = $(this).attr('href');
+        $('body').animate({
+            scrollTop: $(el).offset().top}, 2000);
+        return false;
+    });
+});
+
+$('#go-to-top').each(function(){
+    $(this).click(function(){
+        $('html,body').animate({ scrollTop: 0 }, 'slow');
+        return false;
+    });
+});

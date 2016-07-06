@@ -1,0 +1,40 @@
+ul {
+    list-style: none outside none;
+    padding-left: 0;
+    margin: 0;
+
+}
+
+.demo .item {
+    margin-bottom: 60px;
+
+}
+
+.content-slider li {
+    height: 200px;
+    width:250px;
+    text-align: center;
+}
+
+.image-slider{
+    height: 200px;
+    width:310px;
+}
+
+.demo {
+    width: 800px;
+}
+/*  Iphone6,6plus, Nexus 5x */
+@media screen and (max-width: 480px) {
+    .content-slider li {
+        height: 100px;
+        width:150px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .image-slider{
+        height: 100px;
+        width:125px;
+    }
+}
